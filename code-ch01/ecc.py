@@ -23,6 +23,7 @@ class FieldElement:
 
     def __ne__(self, other):
         # this should be the inverse of the == operator
+        return not(self == other)
         raise NotImplementedError
 
     # tag::source2[]
